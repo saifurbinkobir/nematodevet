@@ -1,0 +1,326 @@
+/* For Small device  */
+@media (max-width: 576px){
+    header form{
+        margin: 0 auto;
+    }
+    .hero_text{
+        padding-top: 30px;
+    }
+    .hero_text h1{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .hero_text p{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .hero_btn a{
+        padding: 5px 10px;
+        font-size: 12px;
+        margin-top: 0px;
+    }
+    .hero_img{
+        padding: 10px;
+    }
+    .hero_img img {
+        max-width: 40%;
+        height: auto;
+    }
+
+    /* about css  */
+    #about {
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+    .ser_text h2 {
+        font-size: 32px;
+        margin-bottom: 5px;
+    }
+    .ser_text p {
+        font-size: 15px;
+    }
+    .ser_vdo {
+        margin-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+    .g-5, .gx-5 {
+        --bs-gutter-x: 0rem;
+    }
+    #service {
+        padding: 40px 0;
+    }
+    .section_head h2 {
+        font-size: 35px;
+        margin-bottom: 5px;
+    }
+    .section_head p {
+        font-size: 15px;
+    }
+    .service_items h4 {
+        font-size: 20px;
+    }
+    .service_items p {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .buy_btn {
+        margin-bottom: 35px;
+    }
+    .social_link {
+        margin-bottom: 35px;
+    }
+    .counter_item p {
+        font-size: 25px;
+    }
+    .counter_item h4 {
+        font-size: 18px;
+    }
+    .counter_item {
+        margin-bottom: 40px;
+    }
+    .blog_item {
+        margin: 40px 0;
+    }
+    .blog_text {
+        width: 92%;
+    }
+    .blog_item img{
+        max-width: 100%;
+    }
+    footer {
+        padding: 60px 0;
+    }
+    .footer_list {
+        margin-bottom: 40px;
+    }
+    .footer_list h4 {
+        font-size: 30px;
+    }
+    .footer_list a {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .footer_end p {
+        font-size: 15px;
+    }
+    .footer_end {
+        text-align: left;
+    }
+}
+
+/* For Mobile devices  */
+@media (min-width: 576px) and (max-width: 768px){
+    header form {
+        margin: 0 auto;
+    }
+    .hero_text h1 {
+        font-size: 35px;
+        padding-top: 20px;
+        margin-bottom: 10px;
+    }
+    .hero_text p {
+        font-size: 15px;
+    }
+    .hero_btn a {
+        padding: 7px 15px;
+        font-size: 12px;
+        margin-top: 0px;
+    }
+    #about {
+        padding-top: 40px;
+        padding-bottom: 90px;
+    }
+    .ser_text h2 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .ser_text p {
+        font-size: 14px;
+    }
+    .ser_vdo {
+        margin-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+    .g-5, .gx-5 {
+        --bs-gutter-x: 0rem;
+    }
+    .service_items {
+        margin-bottom: 30px;
+    }
+    .disable_hover {
+        margin-bottom: 30px;
+    }
+    .team_item {
+        margin-bottom: 40px;
+    }
+    .counter_item {
+        margin-bottom: 30px;
+    }
+    .counter_item p {
+        font-size: 30px;
+    }
+    .counter_item h4 {
+        font-size: 22px;
+    }
+    .blog_item {
+        margin: 30px auto;
+    }
+    .blog_item img{
+        max-width: 100%;
+    }
+    .blog_text {
+        width: 100%;
+    }
+    footer {
+        padding: 60px 0;
+    }
+    .footer_list {
+        margin-bottom: 40px;
+    }
+    .footer_list h4 {
+        font-size: 30px;
+    }
+    .footer_list a {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .footer_end p {
+        font-size: 15px;
+    }
+    .footer_end {
+        text-align: left;
+    }
+}
+
+/* For Tablet  */
+@media (min-width: 768px) and (max-width: 992px){
+    .hero_text {
+        margin-top: -80px;
+    }
+    .hero_text h1 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .hero_text p {
+        font-size: 15px;
+    }
+    .hero_btn {
+        margin-top: 0px;
+    }
+    .hero_btn a {
+        padding: 10px 15px;
+        font-size: 15px;
+        margin-top: 0px;
+    }
+    .hero_img img {
+        max-width: 90%;
+    }
+    #about {
+        padding-top: 40px;
+    }
+    .g-5, .gx-5 {
+        --bs-gutter-x: 0rem;
+    }
+    .ser_text h2 {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    .ser_text p {
+        font-size: 15px;
+    }
+    .ser_vdo {
+        margin-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+    .service_items h4 {
+        font-size: 22px;
+    }
+    .service_items p {
+        font-size: 14px;
+    }
+    .disable_hover {
+        margin-bottom: 30px;
+    }
+    .team_item img{
+        max-width: 100%;
+    }
+    .counter_item p {
+        font-size: 25px;
+    }
+    .counter_item h4 {
+        font-size: 20px;
+    }
+    .blog_item img{
+        max-width: 100%;
+    }
+    .blog_text {
+        width: 100%;
+    }
+    footer {
+        padding: 60px 0;
+    }
+    .footer_list {
+        margin-bottom: 40px;
+    }
+    .footer_list h4 {
+        font-size: 30px;
+    }
+    .footer_list a {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .footer_end p {
+        font-size: 15px;
+    }
+    .footer_end {
+        text-align: left;
+    }
+}
+/* For Laptop  */
+@media (min-width: 992px) and (max-width: 1200px){
+    .site_logo{
+        font-size: 25px !important;
+    }
+    .my_menu a{
+        font-size: 22px;
+        margin: 0 10px;
+    }
+    .hero_text h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .hero_text p {
+        font-size: 16px;
+    }
+    .hero_btn {
+        margin-top: -0px;
+    }
+    .hero_btn a {
+        padding: 10px 15px;
+        font-size: 15px;
+        margin-top: 0px;
+    }
+    .hero_img img {
+        max-width: 80%;
+    }
+    .ser_text h2 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .ser_text p {
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .blog_item img{
+        max-width: 100%;
+    }
+    .blog_text {
+        width: 100%;
+    }
+}

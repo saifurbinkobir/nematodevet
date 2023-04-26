@@ -1,0 +1,434 @@
+/* default items  */
+
+/* main color : #325674; */
+/* button color ; #ffc400; */
+
+/* font-family: 'Poppins', sans-serif; */
+
+
+/* Most used css  */
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p, span{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.section_head{
+    margin-bottom: 50px;
+}
+.section_head h2{
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Poppins";
+    text-align: center;
+    margin-bottom: 20px;     
+}
+.section_head p{
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+
+/* Header CSS  */
+header{
+    background-color: #00c1cbd3;
+}
+.site_logo{
+    font-size: 29px !important;
+    color: white;
+    margin-top: 6px;
+}
+.site_logo:hover{
+    color: #ffc400;
+}
+.my_menu a{
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Poppins";
+    margin: 0 15px;
+}
+.my_menu a:hover{
+   color: #ffc400;
+}
+.search_bar{
+    padding: 10px 15px;
+    background-color: #00c0cb;
+    border: none;
+    outline: none;
+}
+.search_bar::placeholder{
+    font-size: 21px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.search_btn{
+    padding: 10px 15px;
+    margin-left: -10px;
+    border: none;
+    outline: none;
+    background-color: #ffc400;
+}
+.search_btn:hover{
+    background-color: #00c0cb;
+    transition: .9s;
+}
+.search_btn i{
+    color: white;
+}
+
+/* Hero CSS  */
+.hero{
+    height: 80vh;
+    background-color: #00c0cb;
+}
+.hero_text h1{
+    font-size: 50px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.hero_text p{
+    font-size: 22px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 400;   
+}
+
+.hero_btn a{
+    padding: 10px 15px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 20px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.hero_btn_1{
+    background-color: #ffc400;
+    border: 1px solid transparent;
+    outline: none;
+    border-radius: 5px;
+}
+.hero_btn_1:hover{
+    background-color: black;
+    color: white;
+    transition: .7s;
+}
+.hero_btn_2:hover{
+    background-color: black;
+    transition: .7s;
+}
+.hero_btn_2{
+    background-color: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    border-radius: 5px;
+}
+.hero_img{
+    padding: 50px 0;
+}
+.hero_img img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* about css  */
+.g-5, .gx-5 {
+    --bs-gutter-x: 10rem;
+}
+#about{
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.ser_text h2{
+    font-size: 40px;
+    color: #313243;
+    font-weight: 500;    
+    margin-bottom: 30px; 
+}
+.ser_text p{
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #313243;
+    font-weight: 300;
+}
+.def_btn{
+    background-color: #00c0cb;
+    border-radius: 5px;
+}
+.def_btn:hover{
+    background-color: #ffc400;
+    transition: .9s;
+}
+.ser_vdo{
+    position: relative;
+    width: 70%;
+    margin-top: -50px;
+}
+.ser_vdo::after{
+    content: "";
+    height: 40%;
+    width: 40%;
+    background-color: #00c0cb;
+    position: absolute;
+    bottom: -15%;
+    left: -20%;
+    z-index: -1;
+}
+.ser_hover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #ffc40088;
+    visibility: hidden;
+}
+.ser_hover i{
+    color: white;
+    font-size: 70px;
+}
+.ser_vdo img{
+    width: 100%;
+    transition: .9s;
+}
+.ser_vdo:hover .ser_hover{
+    visibility: visible;
+}
+
+/* Service CSS  */
+#service{
+    padding: 100px 0;
+    background-color: #00c0cb;
+}
+.service_items h4{
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.service_items p{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 300;
+    width: 70%;
+    margin: auto;
+}
+.service_items img{
+    max-width: 100%;
+}
+
+/* second about css  */
+.disable_hover .ser_vdo::after{
+    display: none;
+}
+.disable_hover .ser_vdo::before{
+    content: "";
+    height: 40%;
+    width: 40%;
+    background-color: #00c0cb;
+    position: absolute;
+    bottom: -15%;
+    right: -20%;
+    z-index: -1;
+}
+
+/* Products css  */
+#products{
+    padding: 100px 0;
+    background-color: #00c0cb;
+}
+.del_space{
+    margin-right: 20px;
+}
+.buy_btn{
+    padding: 10px 30px;
+    background-color: #ffc400;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 10px;
+}
+.buy_btn:hover{
+    background-color: black;
+    color: white;
+    transition: .8s;
+}
+
+/* Team CSS  */
+#team{
+    padding: 100px 0;
+}
+.text_black{
+    color: #313243  !important;
+}
+.special_spacing{
+    margin-bottom: 90px !important;
+}
+
+.team_item h4{
+    font-size: 25px;
+    color: #313243;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.team_item p{
+    font-size: 18px;
+    color: #313243;
+    font-weight: 400;
+}
+.social_link a{
+    color: #fff;
+    background-color: #00c0cb;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 1px;
+}
+.social_link a:hover{
+    background: #ffc400;
+    transition: .7s;
+}
+.social_link a  i{
+    font-size: 20px;
+}
+
+/* Counter Part  */
+.counter{
+    padding: 110px;
+    background-image: url(/img/counter_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+}
+.counter_item{
+    z-index: 100;
+}
+.counter_item span{
+    color: #fff;
+    font-size: 45px;
+}
+.counter_item p{
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.counter_item h4{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.counter::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #00c0cb;
+    opacity: .8;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+}
+
+/* Blog CSS  */
+#blog{
+    padding: 100px 0;
+}
+.blog_text{
+    padding: 20px 15px;
+    border: 2px solid #d7d7d7;
+    border-top: none;
+    width: 87%;
+}
+.blog_text:hover{
+    border: 1px solid transparent;
+    border-top: none;
+    transition: .7s;
+    box-shadow: 5.634px 10.595px 25.5px rgba(74,74,74,0.1);
+    background-color: #fff;
+}
+.blog_text h4{
+    font-size: 20px;
+    color: #313243;
+    font-weight: 600;
+}
+.blog_text span{
+    font-size: 15px;
+    color: #ffc400;
+    font-weight: 400;
+}
+.blog_text p{
+    font-size: 15px;
+    color: #313243;
+    font-weight: 400;
+    width: 95%;
+    margin: 25px 0;
+}
+.blog_text a{
+    font-size: 21px;
+    color: #ffc400;
+    font-weight: 500;
+}
+
+
+/* Footer CSS  */
+footer{
+    background-color: #303130;
+    padding: 110px 0;
+}
+.footer_list h4{
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: 500;
+}
+.footer_list a{
+    display: block;
+    font-size: 20px;
+    line-height: 40px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.footer_list a:hover{
+    color: #00c0cb;
+}
+.footer_end p{
+    font-size: 20px;
+    line-height: 33px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.footer_end form{
+    margin: 30px 0;
+}
+.footer_end form .search_bar{
+    width: 70%;
+    height: 60px;
+}
+.footer_end form .search_btn{
+    height: 61px;
+    width: 10%;
+}
+.footer_end .social_link a{
+    background: #fff;
+    color: #303130;
+}
+.footer_end .social_link a:hover{
+    background: #00c0cb;
+    color: #fff;
+    transition: .7s;
+}
