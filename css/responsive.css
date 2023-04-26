@@ -65,6 +65,9 @@
         font-size: 15px;
         margin-bottom: 20px;
     }
+    .team_item img{
+        max-width: 100%;
+    }
     .buy_btn {
         margin-bottom: 35px;
     }
@@ -83,11 +86,14 @@
     .blog_item {
         margin: 40px 0;
     }
+    .blog_item img{
+        max-width: 100%;
+    }
     .blog_text {
         width: 92%;
     }
     .blog_item img{
-        max-width: 100%;
+        max-width: 92%;
     }
     footer {
         padding: 60px 0;
