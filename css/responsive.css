@@ -330,3 +330,12 @@
         width: 100%;
     }
 }
+/* For large screen  */
+@media (min-width: 1200px){
+    .move_left{
+        left: 20%;
+    }
+    .blog_text {
+        width: 103%;
+    }
+}
